@@ -5,7 +5,7 @@ import re
 #: Pattern that matches both SubStation and SubRip timestamps.
 from typing import Optional, List, Tuple, Sequence
 
-from .common import IntOrFloat
+from pysubs2.common import IntOrFloat
 
 TIMESTAMP = re.compile(r"(\d{1,2}):(\d{2}):(\d{2})[.,](\d{2,3})")
 
