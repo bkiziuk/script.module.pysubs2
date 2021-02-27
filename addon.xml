@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pysubs2" name="pysubs2 module" version="1.0.0" provider-name="bkiziuk">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Provides pysubs2 library functionality for Kodi addons</summary>
+        <description>Provides pysubs2 library functionality for Kodi addons</description>
+        <disclaimer>May contain a bug</disclaimer>
+        <news>v1.0.0  (2021-02-22)
+- release for Kodi 19 Matrix</news>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/bkiziuk/script.module.pysubs2</source>
+    </extension>
+</addon>
