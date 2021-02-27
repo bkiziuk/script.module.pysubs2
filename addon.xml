@@ -13,8 +13,8 @@
         <platform>all</platform>
         <license>MIT</license>
         <source>https://github.com/bkiziuk/script.module.pysubs2</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
-    <assets>
-        <icon>icon.png</icon>
-    </assets>
 </addon>
